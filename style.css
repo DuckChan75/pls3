@@ -800,3 +800,26 @@ body {
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
+
+
+#contactButton {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--bgColor);
+  border: 1px solid var(--accentColor);
+  border-radius: 20px;
+  padding: 8px 16px;
+  text-align: center;
+  z-index: 1000;
+}
+
+#contactButton a {
+  color: var(--accentColor);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-family: var(--font);
+  font-weight: normal;
+}
+
